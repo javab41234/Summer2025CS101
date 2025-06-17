@@ -1,14 +1,17 @@
 #include <iostream>
 using namespace std;
 
-double prduct(double num1, double num2) {
-    return num1 * num2;
+void fun(double a, double b) {
+    cout<<"Perimetr is "<<(a+b)*2 <<endl;
+    cout<<"Area is "<<a*b<<endl;
 }
 
 int main() {
     double a, b;
     cin>>a>>b;
-    cout<<prduct(a,b)<<endl;
+    fun(a,b);
+
+
 
 
     return 0;
